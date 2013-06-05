@@ -9,6 +9,8 @@
 # $Id: pdf-writer.gemspec 159 2007-11-08 15:26:31Z  $
 #++
 
+require 'rake'
+
 spec = Gem::Specification.new do |s|
   s.name              = 'pdf-writer'
   s.version           = '1.1.4'
