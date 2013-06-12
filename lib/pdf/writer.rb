@@ -1564,7 +1564,7 @@ class PDF::Writer
 
     max   = 0
 
-    text.to_s.each do |line|
+    text.to_s.split("").each do |line|
       width = text_line_width(line, size)
       max = width if width > max
     end
