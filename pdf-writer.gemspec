@@ -46,6 +46,5 @@ spec = Gem::Specification.new do |s|
   s.description = description[1..-1].join(" ")
 
   s.add_dependency('color', '>= 1.4.0')
-  # as.add_dependency('transaction-simple', '~> 1.3')
-  s.add_dependency('transaction-simple', github: 'commonmedia/pdf-writer')
+  s.add_dependency('transaction-simple', '~> 1.3')
 end
